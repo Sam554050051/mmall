@@ -70,7 +70,7 @@ public class CategoryManageController {
     }
 
     /**
-     * 2222222222
+     * 33333333
      */
     @RequestMapping("get_deep_category.do")
     @ResponseBody
@@ -84,9 +84,6 @@ public class CategoryManageController {
         }else{
             return ServiceResponse.createByErrorMessage("无权限操作,需要管理员权限");
         }
-    }
-
-    public void test01(){
     }
 
 }
