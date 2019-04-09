@@ -69,6 +69,9 @@ public class CategoryManageController {
         }
     }
 
+    /**
+     * 2222222222
+     */
     @RequestMapping("get_deep_category.do")
     @ResponseBody
     public ServiceResponse getCategoryAndDeepChildrenCategory(HttpSession session, @RequestParam(value = "categoryId" ,defaultValue = "0") Integer categoryId){
