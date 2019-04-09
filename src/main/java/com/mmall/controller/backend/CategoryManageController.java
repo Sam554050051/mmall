@@ -70,7 +70,7 @@ public class CategoryManageController {
     }
 
     /**
-     * 444444444444444444444
+     * 66666666666666
      */
     @RequestMapping("get_deep_category.do")
     @ResponseBody
